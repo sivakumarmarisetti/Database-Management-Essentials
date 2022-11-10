@@ -1,0 +1,172 @@
+Question 1
+For each error on problem 1, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing DISTINCT keyword
+Missing column
+Extra table
+Major
+Medium
+Minor
+Minor
+Customer table required
+Duplicate removal required in the
+problem
+City, State, and Zip columns required
+Only Customer table
+Correct
+Provide details from your evaluation of problem 1 using the grading rubric.
+
+Question 2
+For each error on problem 2, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing condition
+Incorrect WHERE condition
+Extra table
+Missing column
+Major
+Major
+Medium
+Minor
+Minor
+Employee table required
+Condition on phone column required
+Condition should use the LIKE
+operator and meta character
+Only Employee table
+EmpName, Department, Phone, and
+Email required
+Correct
+Provide details from your evaluation of problem 2 using the grading rubric.
+
+Question 3
+For each error on problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table Major ResourceTbl table required
+Missing condition
+Missing ORDER BY clause
+Incorrect WHERE condition
+Extra table
+Missing column
+Major
+Medium
+Medium
+Minor
+Minor
+Condition on rate column required
+Result should be sorted by rate
+Condition should use BETWEEN
+(preferred) or >=/<= with AND
+Only ResourceTbl table
+All columns required
+Correct
+Provide details from your evaluation of problem 3 using the grading rubric.
+
+Question 4
+For each error on problem 4, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing condition
+Incorrect condition
+Extra table
+Missing column
+Major
+Major
+Medium
+Minor
+Minor
+EventRequest table required
+Conditions on DateAuth and Status
+columns required
+Conditions should match the solution.
+Parentheses required if OR operator
+used; IN operator preferred
+Only EventRequest table
+EventNo, DateAuth, and Status
+required
+Correct
+Provide details from your evaluation of problem 4 using the grading rubric.
+
+Question 5
+For each error on problem 5, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing join condition or
+operation
+Missing condition
+Incorrect condition
+Extra table
+Missing column
+Major
+Major
+Medium
+Medium
+Minor
+Minor
+Facility and Location tables required
+1 join condition or operation
+Condition on FacName column
+required
+Condition should match the solution.
+Only Location and Facility tables
+LocNo and LocName columns
+Correct
+Provide details from your evaluation of problem 5 using the grading rubric.
+
+Question 6
+For each error on problem 6, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing GROUP BY
+Extra condition
+Missing column
+Extra table
+Major
+Major
+Medium
+Medium
+Minor
+EvetnPlanLine table required
+GROUP BY required with PlanNo
+No conditions in the solution
+PlanNo, COUNT, and SUM required
+EventPlanLine only
+Correct
+Provide details from your evaluation of problem 6 using the grading rubric.
+
+Question 7
+For each error on problem 7, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing GROUP BY
+Missing HAVING clause
+Missing condition
+Incorrect WHERE condition
+Incorrect HAVING condition
+Missing time in WHERE
+condition
+Missing column
+Extra table
+Major
+Major
+Major
+Medium
+Medium
+Medium
+Minor
+Minor
+Minor
+EventPlanLine table required
+GROUP BY required with PlanNo
+HAVING clause required
+Condition on TimeStart
+Inclusive range with
+BETWEEN/AND
+Condition with SUM
+End point in condition should have
+time constant and function
+PlanNo, COUNT, and SUM required
+EventPlanLine only
+Correct
+Provide details from your evaluation of problem 7 using the grading rubric.
