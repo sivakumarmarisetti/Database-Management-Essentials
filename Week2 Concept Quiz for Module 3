@@ -1,0 +1,29 @@
+Question 1
+A CHECK constraint involves?
+conditions with comparison operators and logical operators involving one or more columns of the same table.
+Question 2
+In a column specification of the CREATE TABLE statement, you must specify?
+the column name and data type.
+Question 3
+In a column specification, a default value specification is required.?
+False
+Question 4
+How is a M-N relationship represented in a relational database?
+through an associative table containing a combined primary key consisting of multiple foreign keys.
+Question 5
+What statements are true about null values? Multiple answers are possible.?
+1,2,3
+Question 6
+What is the difference between the primary key for a table and candidate keys for the same table?
+The primary key is chosen among candidate keys that do not allow null values.
+Question 7
+Relationships in relational databases are represented?
+by foreign keys and associated referential integrity constraints.
+Question 8
+How is a 1-M self-referencing relationship represented in a relational database?
+Question 9
+Names are required for constraints in the CREATE TABLE statement.?
+False
+Question 10
+What keyword(s) indicates a candidate key that is not the primary key?
+UNIQUE
