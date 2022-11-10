@@ -1,0 +1,72 @@
+Question 1
+For each error on the Employee table, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+Medium, 4 NOT NULL constraints required. NOT NULL
+constraint for the primary key is optional, Missing a NOT NULL
+constraint
+Major, EmpNo; Inline or external, Missing primary key
+constraint
+Minor, All constraints should have a name, Missing a constraint name
+Medium, See solution for data types, Incorrect data type
+Minor, Length should be 8 for EmpNo; Length for
+other columns may vary if wide enough for
+values, Incorrect length specification
+Question 2
+For each error on the ResourceTbl table, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+Missing a NOT NULL
+constraint
+Medium 2 NOT NULL constraints required. NOT NULL
+constraint for the primary key is optional.
+Missing primary key
+constraint
+Major ResNo; Inline or external
+Missing a constraint name Minor All constraints should have a name.
+Incorrect data type Medium See solution for data types
+Incorrect length specification Minor Length should be 8 for ResNo; Length for other
+columns may vary as long as wide enough for
+values.
+Missing CHECK constraint Medium Rate should have CHECK constraint inline or
+external
+Incorrect CHECK constraint Minor See solution for constraint details
+Question 3
+For each error on the EventRequest table, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+Missing a NOT NULL
+constraint
+Medium 7 NOT NULL constraints required. NOT NULL
+constraint for the primary key is optional.
+Should not have NOT NULL constraints for
+other columns
+Missing primary key
+constraint
+Major EventNo; Inline or external
+Missing a constraint name Minor All constraints should have a name.
+Incorrect data type Medium See solution for data types
+Incorrect length specification Minor Length should be 8 for EventNo, CustNo, and
+FacNo; Length for other columns may vary as
+long as wide enough for values.
+Missing CHECK constraint Medium Status and EstAudience should have CHECK
+constraints inline or external
+Incorrect CHECK constraint Minor See solution for constraint details
+Missing or incorrect foreign
+key constraints
+Medium Should have 2 foreign key constraints; See
+solution for constraint details
+Question 4
+For each error on the EventPlan table, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+Missing a NOT NULL
+constraint
+Medium 3 NOT NULL constraints required. NOT NULL
+constraint for the primary key is optional.
+Should not have NOT NULL constraints for
+other columns especially EmpNo
+Missing primary key
+constraint
+Major PlanNo; Inline or external
+Missing a constraint name Minor All constraints should have a name.
+Incorrect data type Medium See solution for data types
+Incorrect length specification Minor Length should be 8 for PlanNo, EventNo, and
+EmpNo; Length for other columns may vary as
+long as wide enough for values.
+Missing or incorrect foreign
+key constraints
+Medium Should have 2 foreign key constraints; See
+solution for constraint details
