@@ -1,0 +1,66 @@
+Question 1
+Problem 1: Which column is the most appropriate to be a primary key in Customer table:
+CustNo
+Question 2
+Problem 1: How many columns are in the Customer table:
+9
+Question 3
+Problem 1: How many constraint types are in the problem 1 statement:
+2
+Question 4
+Problem 1: Which constraints are required in problem 1 statement
+Primary key and NOT NULL constraints
+Question 5
+Problem 1: Which of the followings is the most appropriate data type for address column:
+VARCHAR2
+Question 6
+Problem 2: Which column is the most appropriate to be a primary key in Facility table:
+FacNo
+Question 7
+Problem 2: How many columns are in the Facility table:
+2
+Question 8
+Problem 2: How many constraint types are in the problem 2 statement:
+2
+Question 9
+Problem 2: Which constraints are required in problem 2 statement
+Primary key and NOT NULL constraints
+Question 10
+Problem 2: Which of the followings is the most appropriate data type for FacName column:
+VARCHAR2
+Question 11
+Problem 3: Which column is the most appropriate to be a primary key in Location table:
+LocNo
+Question 12
+Problem 3: How many columns are in the Location table:
+3
+Question 13
+Problem 3: How many constraint types are in the problem 3 statement:
+2
+Question 14
+Problem 3: Which constraints are required in problem 3 statement
+Primary key and NOT NULL constraints
+Question 15
+Problem 3: Which of the followings is the most appropriate data type for LocNAme column:
+VARCHAR2
+Question 16
+Problem 4: How many 1-M relationships are there among the Customer, Facility and Location tables:
+1
+Question 17
+Problem 4: Which of the following tables have 1-M relationship:
+Facility and Location
+Question 18
+Problem 5: Which of the followings is the appropriate referential integrity constraint for problem 5:
+CONSTRAINT FK_FACNO FOREIGN KEY (FacNo)  REFERENCES FACILITY (FacNo)
+Question 19
+Problem 6: Which of the following statements is TRUE about problem 6:
+Null values are not allowed in the foreign key column in Location table
+Question 20
+Problem 6: Which of the following constraints is the most appropriate addition in problem 6:
+NOT NULL constraint for FacNo column
+Question 21
+Problem 7: Which of the following constraints is the most appropriate addition in problem 7:
+
+Question 22
+Problem 7: Which of the followings is the appropriate constraint syntax for problem 7:
+CONSTRAINT UniqueFacName UNIQUE (FacName)
