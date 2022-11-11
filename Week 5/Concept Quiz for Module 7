@@ -1,0 +1,30 @@
+Question 1
+What is the purpose of diagram rules for an ERD?
+To prevent structural errors in an ERD just as syntax rules prevent grammatical errors with computer language statements 
+Question 2
+Which completeness rule is not mandatory although typically satisfied.?
+
+Question 3
+For weak entity types, the primary key rule is violated if ?
+the weak entity type has 1 identifying relationship but not a local key.
+Question 4
+Which statement is FALSE about names in an ERD?
+Attribute names must be unique across entity types.
+Question 5
+The Check Diagram feature of the ER Assistant reports a redundant foreign key if?
+A child entity type has an attribute name matching the name of the primary key of the parent entity type.
+Question 6
+Visual Paradigm Community Edition contains a check diagram feature that shows violations of diagram rules.?
+False
+Question 7
+Which statement is different about the ERD notation in the ER Assistant and physical models in Visual Paradigm?
+Foreign keys are not used.
+Question 8
+Which consistency rule is violated by a weak entity type without an identifying relationship?
+Weak entity type rule
+Question 9
+Which consistency rule is violated by an identifying relationship without a particpating weak entity type?
+Identifying relationship rule
+Question 10
+Which consistency rule is violated by an identifying relationship without a cardinalty of 1:1 (minimum and maximum cardinality of 1) for the weak entity type?
+Identification dependency cardinality rule
