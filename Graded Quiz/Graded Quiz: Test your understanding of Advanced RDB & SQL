@@ -1,0 +1,32 @@
+Question 2
+Which of these SQL server functions is an aggregate function?
+SUM( )
+
+Question 4
+Which of the followings are not stored entities in the database and must be embedded in other entities or saved as a stand-alone text file?
+Common table expressions
+
+Question 5
+Why would this trigger definition cause an error when it is executed?
+DURING UPDATE is not a valid trigger event.
+
+Question 6
+What would be the result of executing this SQL statement on this table student?
+AVG(age)
+6
+
+Question 7
+What does this stored function do?
+It returns the column final_mark from the table student_mark for the row that has a student_id matching the requested_student_id that is passed to the function.
+
+Question 8
+What is the stop condition for the following recursive common table expression?
+when n is >= 15
+
+Question 9
+This stored procedure adds up all the scores of an athlete. How does that score get returned to the caller?
+Through the output parameter total_score.
+
+Question 10
+This stored procedure is supposed to return the total of an order to the caller. The result should have returned 19000 but it is 0. No error messages were generated. Why is it not working as we intended?
+The parameter total_to_return is specified as IN, an input parameter, and any changes to its value inside of the body of the stored procedure is not reflected outside of the body.
