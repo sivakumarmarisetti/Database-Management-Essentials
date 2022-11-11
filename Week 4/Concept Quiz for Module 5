@@ -1,0 +1,54 @@
+Question 1
+To convert a database representation into a SELECT statement, one should use?
+SELECT statement patterns.
+Question 2
+Using the critical questions provides a guideline?
+to convert a problem statement into a database representation.
+Question 3
+A database representation requires a table when?
+all of the above. 
+Question 4
+Duplicate rows typically occur in the result of a SELECT statement when
+
+Question 5
+A prominent type of problem without PK-FK matching is known as
+
+Question 6
+Examples of poor coding practices are (multiple answers possible)?
+1,2,3,4
+Question 7
+In the query formulation process, a problem statement can be?
+all of the above.
+Question 8
+Examples of redundancy errors are (multiple answers possible)?
+1,4
+Question 9
+Examples of semantic query errors are (multiple answers possible)?
+2,3
+Question 10
+What SQL statement uses a SET clause?
+UPDATE
+Question 11
+In a typical join pattern, (multiple answers possible)?
+1,4
+Question 12
+What SQL modification statements use a WHERE clause (multiple answers possible)?
+1,2
+Question 13
+In an UPDATE statement, only one column can be changed. To update multiple columns of the same row, two UPDATE statements are necessary.?
+False
+Question 14
+Indicate the requirements for union compatibility for two tables. More than one answer is possible.?
+1,2,3
+Question 15
+Matching for SQL set operators involves equality comparison of each corresponding column from two input tables.?
+True
+Question 16
+The difference operator (MINUS or EXCEPT) is not communtative meaning the A MINUS B is usually different the B MINUS A.?
+True
+Question 17
+The union operator (UNION) is not communtative meaning the A UNION B is usually different the B UNION A.?
+False
+Question 18
+The intersection operator (INTERSECT) is communtative meaning the A INTERSECT B is always the same as B INTERSECT A.?
+True
