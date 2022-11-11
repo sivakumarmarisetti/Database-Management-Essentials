@@ -1,1 +1,30 @@
-
+Question 2
+Identify the components of identification dependency. More than one answer is possible.?
+a weak entity type,an identifying relationship 
+Question 3
+For cardinality specification in an ERD, a mandatory relationship indicates?
+minimum cardinality of 1 or larger.
+Question 4
+In the Crow’s Foot notation, the minimum cardinality symbol is placed?
+inside the maximum cardinality symbol.
+Question 5
+A M-N relationship can be replaced by?
+an associative entity type and two identifying 1-M relationships. 
+Question 6
+A M-N relationship with attributes indicates that?
+the attributes depend on both entity types. 
+Question 7
+For cardinality specification in an ERD, an optional relationship indicates?
+a minimum cardinality of 0. 
+Question 8
+Identify differences between the Crow’s Foot notation and Oracle database diagram notation. More than one answer is possible.?
+Named relationships in Crow’s Foot notation but not in an Oracle database diagram, Foreign keys not needed in Crow’s Foot notation but necessary in an Oracle database diagram
+Question 9
+A self-referencing relationship involves the same entity type.?
+True
+Question 10
+The first step of the database development process is?
+conceptual data modeling. 
+Question 11
+Identify goals of database development that apply to conceptual data modeling. More than one answer is possible.?
+Develop a common vocabulary, Define business rules
