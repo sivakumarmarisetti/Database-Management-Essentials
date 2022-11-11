@@ -1,0 +1,64 @@
+Question 1
+Problem 1: Which of the following clauses
+is NOT required in problem 1:?
+GROUP BY
+Question 2
+Problem 1: Which of the following tables is
+NOT required in problem 1:?
+Location
+Question 3
+Problem 1: Which columns are involved in conditions for problem 1:?
+DateHeld and City
+Question 4
+Problem 2: Which clause is NOT required in problem 2:?
+GROUP BY
+Question 5
+Problem 2: Which tables are
+NOT required in problem 2:?
+Employee
+Question 6
+Problem 2: Which columns are involved in WHERE conditions?
+DateHeld and EstCost/EstAudience
+Question 7
+Problem 3: Which of the following statements
+is NOT required in problem 3:?
+BETWEEN 
+Question 8
+Problem 3: What tables are NOT required in problem 3?
+Employee, Facility
+Question 9
+Problem 3: Which choice is the condition for problem 3:?
+Status = ‘Approved’
+Question 10
+Problem 5: Which is the appropriate statement
+to add a new row to a table:?
+INSERT INTO
+Question 11
+Problem 5: How many columns in the Customer
+table:?
+9
+Question 12
+Problem 6: Which is the appropriate statement
+to modify columns in rows of a table?
+UPDATE
+Question 13
+Problem 6: Which keywords are
+required in problem 6?
+UPDATE, SET, WHERE
+Question 14
+Problem 6: What syntax is 
+appropriate to increase the rate by 10%?
+SET Rate = Rate * 1.1
+Question 15
+Problem 7: Which is the appropriate statement
+to remove a row from a table?
+DELETE FROM
+Question 16
+Problem 4: What tables are required in Problem 4?
+EventPlan,Employee,EventRequest
+Question 17
+Problem 4: What clauses of the SELECT statement are NOT required in Problem 4?
+HAVING
+Question 18
+Problem 4: What aggregate functions are used in the SELECT clause of Problem 4?
+SUM,COUNT
