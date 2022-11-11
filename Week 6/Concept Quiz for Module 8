@@ -1,1 +1,31 @@
-
+Question 1
+In the Attribute Expansion Transformation, an attribute is converted into?
+an entity type and 1-M relationship.
+Question 2
+In the Compound Attribute Transformation, an attribute is converted into?
+multiple attributes.
+Question 3
+The consistency goal for narrative problem analysis indicates that the associated ERD should?
+not conflict with the narrative problem details. 
+Question 4
+In the Entity Type Expansion Transformation, an entity type is converted into?
+two entity types and a 1-M relationship. 
+Question 5
+Usage of a government issued identifier (such as Social Security number) as a primary key should be avoided if possible due to privacy concerns and sometimes violation of the single-purpose tenet.?
+True
+Question 6
+In the Limited Attribute History Transformation, an attribute is converted into?
+multiple attributes
+Question 7
+A phone number is a poor choice for a customer primary key because (multiple answers possible)?
+phone numbers are not stable as customers may change phone numbers over time. 
+a phone number has multiple components identifying countries and regions or areas of a country
+Question 8
+When determining a primary key for an entity type, the stable property indicates that?
+the primary key value should never change for most entities. 
+Question 9
+In the Unlimited Attribute History Transformation, an attribute is converted into?
+a weak entity type and an identifying relationship. 
+Question 10
+In the Weak to Strong Entity Type Transformation, a weak entity type and identifying relationship are converted into?
+a strong (not weak) entity type and regular (non-identifying) relationship.
