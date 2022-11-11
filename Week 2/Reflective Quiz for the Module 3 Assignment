@@ -71,6 +71,7 @@ key constraints
 Medium Should have 2 foreign key constraints; See
 solution for constraint details
 Question 5
+For each error on the EventPlan table, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
 Missing a NOT NULL
 constraint
 Medium 6 NOT NULL constraints required. NOT NULL
