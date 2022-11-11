@@ -1,0 +1,52 @@
+Question 1
+For each error on problem 1 (initial ERD), indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Insertion anomaly: patients, providers, and visits cannot be entered alone. VisitNo and
+ProvNo must be entered for each row because they are the primary key. For example, to
+insert a new patient P5, a visit number and provider number must be provided.
+• Update anomaly: Multiple rows may be needed to be changed to update patient zipcode,
+visit date, patient city, provider specialty, provider email, and patient age. For example to
+update the age of patient P1, two rows must be updated.
+• Deletion anomaly: deleting a row can inadvertently cause deletion of a patient, visit,
+provider, and zip code if any of these entities are associated with just a single diagnosis
+(combination of visit and provider). For example, if row 3 is deleted, details about patient
+P3 and visit V93030 are lost.
+Correct
+Provide details from your evaluation of problem 1 (initial ERD) using the grading rubric.
+
+Question 2
+For each error on problem 2 (revised ERD), indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+PatNo → PatAge
+PatZip → PatCity
+VisitNo → VisitDate
+PatNo → PatZip
+ProvNo → ProvSpecialty
+VisitNo → PatNo
+VisitNo, ProvNo → Diagnosis
+ProvNo → ProvEmail
+ProvEmail → ProvNo
+Correct
+Provide details from your evaluation of problem 2 (revised ERD) using the grading rubric.
+
+Question 3
+For each error on problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+LenderName, InstName, and StdEmail are determinants. The Student, Lender, and Institution
+tables are in BCNF because these determinants are unique. The tables should not be split
+because they are in BCNF. Unique constraints should be added for LenderName, InstName,
+and StdEmail. Here is the revised table design with the unique constraints.
+Student (StdNo, StdName, StdEmail, StdAddress, StdCity, StdState, StdZip )
+UNIQUE (StdEmail)
+Lender(LenderNo, LenderName)
+UNIQUE (LenderName)
+Institution(InstNo, InstName, InstMascot)
+UNIQUE (InstName)
+Correct
+Provide details from your evaluation of problem 3 using the grading rubric.
+
+Question 4
+For each error on problem 4, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+OrdNo FDs and sample data that violates the FDs. The rows refer to the sample rows above.
+Only 1 falsification per FD is necessary to identify.
