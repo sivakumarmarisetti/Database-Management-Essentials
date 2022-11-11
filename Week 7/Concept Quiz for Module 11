@@ -1,0 +1,33 @@
+Question 1
+Using the Big University Database Table in the lesson 1 notes, the inadvertent (unintended) removal of a student or offering when deleting an enrollment indicates a(n)?
+deletion anomaly.
+
+Question 3
+Using falsification examples are useful
+in subtle situations to obtain user feedback about FDs not involving a primary key or candidate key.
+
+Question 4
+In an FD, the right-hand side (RHS) is known as the determinant.?
+False
+
+Question 6
+A functional dependency specified as X->Y indicates that?
+for each X value, there is at most one Y value. 
+
+Question 7
+Using the Big University Database Table in the lesson 1 notes, the requirement to specify values for StdNo and OfferNo when inserting a new course indicates a(n)?
+insertion anomaly.
+
+Question 8
+Modification anomalies covering insertions, updates, and deletions are caused by?
+excessive redundancies in a table design. 
+
+Question 9
+Using the Big University Database Table in the lesson 1 notes, the requirement to update multiple rows to change the StdClass value of a particular student indicates a(n)?
+update anomaly. 
+
+Question 10
+Indicate value neutral constraints. More than one answer is possible.?
+Primary key constraint
+Foreign key constraint
+Functional dependency 
