@@ -1,0 +1,43 @@
+Question 1
+For each error on problem 1, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Patient
+PatNo PatFirstName PatLastName PatDOB
+LabVisit
+LVNo
+LVDate
+LVOrdNo
+LVProvNo
+Correct
+Provide details from your evaluation of problem 1 using the grading rubric.
+
+Question 2
+For each error on problem 2, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Patient
+PatNo
+PatFirstName
+PatLastName
+PatDOB
+LabVisit
+LVNo
+LVDate
+LVOrdNo
+LVProvNo
+Lab
+LabNo
+LabName
+LabStreet
+LabCity
+LabState
+LabZip
+Correct
+Provide details from your evaluation of problem 2 using the grading rubric.
+
+Question 3
+For each error on problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Specimen
+SpecNo
+SpecArea
+SpecMethod
