@@ -1,0 +1,77 @@
+
+Question 1
+For each error on problem 1 (initial ERD), indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Entity rule to convert Student, Lender, Loan, Institution, and DisburseLine into tables
+with primary keys and other columns for each table.
+Student (StdNo, StdName, StdEmail, StdAddress, StdCity, StdState, StdZip )
+Lender (LenderNo, LenderName)
+Institution (InstNo, InstName, InstMascot)
+Loan (LoanNo, ProcDate, DisbMethod, DisbBank, DateAuth, NoteValue, Subsidized, Rate)
+DisburseLine (DateSent, OrigFee, GuarFee)
+Correct
+Provide details from your evaluation of problem 1 (initial ERD) using the grading rubric.
+
+Question 2
+For each error on problem 2 (revised ERD), indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+1-M relationship rule to convert GivenTo (StdNo FK in Loan table), Uses (InstNo FK in Loan
+table), Sent (LoanNo FK in DisburseLin table), and Authorizes (LenderNo FK in Loan table)
+relationships. NOT NULL constraints should be defined for each foreign key.
+Loan (LoanNo, StdNo, InstNo, LenderNo, ProcDate, DisbMethod, DisbBank, DateAuth,
+NoteValue, Subsidized, Rate)
+FOREIGN KEY (StdNo) REFERENCES Student
+FOREIGN KEY (LenderNo) REFERENCES Lender
+FOREIGN KEY (InstNo) REFERENCES Institution
+StdNo NOT NULL
+LenderNo NOT NULL
+InstNo NOT NULL
+DisburseLine (LoanNo, DateSent, OrigFee, GuarFee)
+FOREIGN KEY (LoanNo) REFERENCES Loan
+LoanNo NOT NULL
+Correct
+Provide details from your evaluation of problem 2 (revised ERD) using the grading rubric.
+
+Question 3
+For each error on problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+No application of the M-N rule
+Correct
+Provide details from your evaluation of problem 3 using the grading rubric.
+
+Question 4
+For each error on problem 4, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+One application of the identifying relationship rule to add LoanNo as part of the PK of
+DisburseLine. The primary key of DisburseLine is a combination of LoanNo and DateSent. The
+NOT NULL constraint for LoanNo is no longer needed because LoanNo is part of the primary
+key.
+DisburseLine(LoanNo, DateSent, OrigFee, GuarFee)
+FOREIGN KEY (LoanNo) REFERENCES Loan
+Correct
+Provide details from your evaluation of problem 4 using the grading rubric.
+
+Question 5
+For each error on problem 5, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+One application of the entity type rule to define the Account table and one application of the 1-M
+relationship rule to add a foreign key (ParentAcctId) in the Account table. The foreign key
+column name should be made by the designer. ParentAcctId can accept null values as the
+minimum cardinality is 0.
+Account(AccountId, AcctName, Balance, ParentAcctId)
+FOREIGN KEY (ParentAcctId) REFERENCES Account
+Correct
+Provide details from your evaluation of problem 5 using the grading rubric.
+
+Question 6
+For each error on problem 6, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Two applications of the entity type rule to define the Owner and Property tables. One application
+of the M-N relationship rule to create the Shares table with a combined primary key, two foreign
+keys, and other columns. NOT NULL constraints are not necessary because OwnId and PropId
+are both parts of the primary key of Shares. A primary key constraint implies not null.
+Owner(OwnId, OwnName, OwnPhone)
+Property(PropId, BldgName, UnitNo, Bdrms)
+Shares(OwnId, PropId, StartWeek, EndWeek)
+FOREIGN KEY (OwnId) REFERENCES Owner
+FOREIGN KEY (PropId) REFERENCES Property
