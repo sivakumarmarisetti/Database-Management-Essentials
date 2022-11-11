@@ -1,0 +1,44 @@
+Question 1
+For each error on problem 1 (initial ERD), indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+A workorder cannot be created unless at least 1 task is known.
+Correct
+Provide details from your evaluation of problem 1 (initial ERD) using the grading rubric.
+
+Question 2
+For each error on problem 2 (revised ERD), indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+For the Auto Dealership ERD shown in Figure 1, identify and resolve errors and note
+incompleteness in the specifications. Your solution should include a list of errors and a
+revised ERD. For each error, identify the type of error (diagram or design) and the specific
+error within each error type. Note that the ERD may have both diagram and design errors.
+Specifications for the ERD are presented in the following narrative.
+Correct
+Provide details from your evaluation of problem 2 (revised ERD) using the grading rubric.
+
+Question 3
+For each error on problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Diagram error 1: The identifying IncomeOf relationship must have a minimum
+cardinality of 1 for Account. Identifying relationships cannot be optional for the child
+entity type.
+• Design error 2: Account should not be a weak entity type as the narrative indicates
+that AcctId is unique. If Account is a regular entity type, the IncomeOf and
+ExpenseOf relationships should be regular, not identifying.
+• Design error 3: The cardinality of IncomeOf is reversed. The narrative indicates that
+each payment has an account and accounts are related to a collection of payments.
+• Design error 4: The cardinality of ExpenseOf is reversed. The narrative indicates that
+each expense has an account and accounts are related to a collection of expenses.
+• Design error 5: The minimum cardinality of MakesSale should be 0 for Vehicle. The
+narrative indicates that a vehicle can remain on the lot some days before a sale is
+made.
+• Design error 6: The minimum cardinality of Sold should be 0 for Vehicle. The
+narrative indicates that a vehicle can remain on the lot some days before a sale and
+related payments are made.
+• Design error 7: The Process relationship is redundant with the MakesSale and Sold
+relationships. The narrative indicates that the same employee makes the sale and
+processes the payment.
+• Design error 8: The minimum cardinality of Purchases should be 0 for Vehicle. The
+narrative indicates that a vehicle can remain on the lot some days before a sale and
+related payments are made. Before sale, a vehicle is not related to a customer.
+• Here is the revised ERD correcting these errors. 
