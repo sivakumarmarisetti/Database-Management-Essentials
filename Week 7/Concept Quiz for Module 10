@@ -1,1 +1,21 @@
+Question 1
+The 1-M relationship rule converts a 1-M relationship into a(n)?
+foreign key and associated referential integrity constraint.
 
+Question 2
+Identify typical conversion errors. Multiple answers are possible.?
+Failure to convert a M-N relationship 
+Failure to add a component to a PK for conversion of an identifying relationship 
+Placing a foreign key in the parent table instead of the child table for a 1-M relationship
+
+Question 3
+The entity type rule converts an entity type into a(n)?
+table
+
+Question 4
+The identifying relationship rule converts an identifying relationship into a(n)?
+component of a primary key.
+
+Question 5
+The M -N relationship rule converts a M-N relationship into a(n)?
+associative table and two foreign keys.
