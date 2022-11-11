@@ -1,0 +1,18 @@
+Question 1
+A design error involves?
+inconsistency between a specification and ERD to support the business requirements in the specification. 
+Question 2
+Identify elements for inclusion in documentation of an ERD. More than one selection is possible.?
+Inconsistency in a specification
+Parts of a design in which more than one feasible design alternative exists
+Parts of a design in which more than one feasible design alternative exists
+Question 3
+Identify the design error when using incorrectly using a 1-M relationship instead of correctly using a M-N relationship.?
+Incorrect maximum cardinality 
+Question 4
+Identify types of incorrect relationships. Multiple answers are possible?
+Missing relationship
+Incorrect connection with a relationship connecting wrong entity types 
+Question 5
+Identify the design error when incorrectly using the crow’s foot symbol near the parent entity type instead of the child entity type and the 1 symbol (perpendicular line) for the maximum cardinality near the child entity type instead of the parent entity type.?
+Reversed cardinality
