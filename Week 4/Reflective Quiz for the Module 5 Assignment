@@ -1,0 +1,334 @@
+Question 1
+For each error on SELECT statement problem 1, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing join condition or
+operation
+Missing or incorrect WHERE
+condition
+Missing GROUP BY
+Missing or incorrect
+HAVING condition
+Missing column
+Extra table
+Major
+Major
+Medium
+Medium
+Medium
+Minor
+Minor
+EventPlan and EventRequest tables
+required
+One join condition or operation
+Condition on WorkDate column
+Inclusive date range condition
+Group on EventNo, DateHeld
+Condition on COUNT
+EventNo, DateHeld, COUNT
+Only EventPlan and EventRequest
+tables
+Correct
+Provide details from your evaluation of SELECT statement problem 1 using the grading rubric.
+
+Question 2
+For each error on SELECT statement problem 2, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table Major EventPlan, EventRequest, and
+Facility tables required
+Missing join condition or
+operation
+Missing WHERE condition
+Incorrect WHERE condition
+Extra table
+Missing column
+Unneeded GROUP BY
+Major
+Medium
+Minor
+Minor
+Minor
+Minor
+Two join conditions or operations
+Conditions on WorkDate and
+FacName columns
+Inclusive range on WorkDate and =
+comparison on FacName
+Only EventPlan, EventRequest, and
+Facility tables
+PlanNo, EventNo, WorkDate, and
+Activity columns required
+GROUP BY not needed
+Correct
+Provide details from your evaluation of SELECT statement problem 2 using the grading rubric.
+
+Question 3
+For each error on SELECT statement problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing join condition or
+operation
+Missing WHERE condition
+Incorrect WHERE condition
+Extra table
+Missing column
+Unneeded GROUP BY
+Major
+Major
+Medium
+Minor
+Minor
+Minor
+Minor
+EventPlan, EventRequest, Employee,
+and Facilty tables required
+Three join conditions or operations
+Conditions on WorkDate, FacName,
+and EmpName columns
+Inclusive range on WorkDate and =
+comparison on FacName and
+EmpName
+Only EventPlan, EventRequest,
+Employee, and Facilty tables
+eventno, dateheld, status, estcost
+columns required
+GROUP BY not needed
+Correct
+Provide details from your evaluation of SELECT statement problem 3 using the grading rubric.
+
+Question 4
+For each error on SELECT statement problem 4, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing join condition or
+operation
+Missing WHERE condition
+Incorrect WHERE condition
+Extra table
+Missing column
+Unneeded GROUP BY
+Major
+Major
+Medium
+Minor
+Minor
+Minor
+Minor
+facility, eventplan, eventplanline,
+resourcetbl, location tables required;
+Sixth table optional (see alternative
+solution)
+Four join conditions or operations for
+5 tables; Five join conditions or
+operations for 6 tables
+Conditions on WorkDate, Activity,
+and FacName columns
+Inclusive range on WorkDate and =
+comparisons on FacName and
+Activity
+Only 5 or 6 tables
+planno, lineno, locname, resname,
+resourcecnt, timestart, timeend
+columns required
+GROUP BY not needed
+Correct
+Provide details from your evaluation of SELECT statement problem 4 using the grading rubric.
+
+Question 5
+For each error on SELECT statement problem 5, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Missing table
+Missing join condition or
+operation
+Major
+Major
+EventPlan, EventPlanLine,
+ResourceTbl tables required
+Two join conditions or operations
+Missing or incorrect WHERE
+condition
+Missing GROUP BY
+Missing or incorrect
+HAVING condition
+Missing column
+Extra table
+Medium
+Medium
+Medium
+Minor
+Minor
+Condition on WorkDate column
+Inclusive date range condition
+Group on EventNo, DateHeld
+Condition on SUM
+PlanNo, SUM with computation
+Only EventPlan, EventPlanLine,
+ResourceTbl tables
+Correct
+Provide details from your evaluation of problem 5 using the grading rubric.
+
+Question 6
+For each error on modification statement problem 1, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Incorrect statement type
+Incorrect target table
+Missing column values
+Non unique primary key
+value
+Major
+Major
+Major
+Major
+1 INSERT statement
+Facility table
+FacNo, FacName required
+FacNo unique
+Correct
+Provide details from your evaluation of modification statement problem 1 using the grading rubric.
+
+Question 7
+For each error on modification statement problem 2, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Incorrect statement type
+Incorrect target table
+Missing column values
+Non unique primary key
+value
+Nonmatching foreign key
+value
+Major
+Major
+Major
+Major
+Medium
+1 INSERT statement
+Location table
+LocNo, FacNo, FacName required
+LocNo
+Should match FacNo value in (1)
+Correct
+Provide details from your evaluation of modification statement problem 2 using the grading rubric.
+
+Question 8
+For each error on modification statement problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Incorrect statement type
+Incorrect target table
+Missing column values
+Non unique primary key
+value
+Nonmatching foreign key
+value
+Major
+Major
+Major
+Major
+Medium
+1 INSERT statement
+Location table
+LocNo, FacNo, FacName required
+LocNo
+Should match FacNo value in (1)
+Correct
+Provide details from your evaluation of modification statement problem 3 using the grading rubric.
+
+Question 9
+For each error on modification statement problem 4, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Incorrect statement type
+Incorrect target table
+Missing or incorrect WHERE
+condition
+Major
+Major
+Major
+1 UPDATE statement
+Location
+Condition on LocNo matching
+primary key in (2)
+Correct
+Provide details from your evaluation of modification statement problem 4 using the grading rubric.
+
+Question 10
+For each error on modification statement problem 5, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Incorrect statement type
+Incorrect target table
+Incorrect or missing WHERE
+condition
+Major
+Major
+Medium
+2 DELETE statements
+Location table
+Conditions for LocNo primary keys
+in (2) and (3)
+Correct
+Provide details from your evaluation of modification statement problem 5 using the grading rubric.
+
+Question 11
+For each error on SELECT statement error problem 1, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Error detection
+Revised statement
+Major
+Major
+Missing join condition (EventRequest
+- EventPlan)
+New statement with added join
+Correct
+Provide details from your evaluation of SELECT statement error problem 1 using the grading rubric.
+
+Question 12
+For each error on SELECT statement error problem 2, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Error detection
+Revised statement
+Major
+Major
+GROUP BY clause not needed
+New statement with GROUP BY
+clause removed
+Correct
+Provide details from your evaluation of SELECT statement error problem 2 using the grading rubric.
+
+Question 13
+For each error on SELECT statement error problem 3, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Error detection
+Revised statement
+Major
+Major
+Extra table (Employee)
+New statement with Employee table
+and join condition removed
+Correct
+Provide details from your evaluation of SELECT statement error problem 3 using the grading rubric.
+
+Question 14
+For each error on SELECT statement error problem 4, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Error detection
+Revised statement
+Major
+Major
+Syntax errors with misspelled
+keyword (BETWEN) and unqualified
+name (eventno)
+New statement with corrected syntax
+errors
+Correct
+Provide details from your evaluation of SELECT statement error problem 4 using the grading rubric.
+
+Question 15
+For each error on SELECT statement error problem 5, indicate the error type, a brief description of the error, and lessons learned or insights from the error. If you did not make any errors, indicate that your solution satisfied the assignment requirements.
+
+Detection of poor coding
+practices
+Revised statement
+Major
+Major
+Poor clause and condition alignment,
+incompatible constant
+New statement with improved coding
+practices
