@@ -70,3 +70,28 @@ Missing or incorrect foreign
 key constraints
 Medium Should have 2 foreign key constraints; See
 solution for constraint details
+Question 5
+Missing a NOT NULL
+constraint
+Medium 6 NOT NULL constraints required. NOT NULL
+constraint for the primary key is optional.
+Missing or incorrect primary
+key constraint
+Major Combination of PlanNo/LineNo; Must be
+external
+Missing a constraint name Minor All constraints should have a name.
+Incorrect data type Medium See solution for data types; Data types differ for
+TimeStart and TimeEnd between Oracle and
+PostgreSQL
+Incorrect length specification Minor Length should be 8 for PlanNo, LocNo, and
+ResNo; Length for other columns may vary as
+long as wide enough for values.
+Missing CHECK constraint Medium Should have an external CHECK constraint
+with TimeStart and TimeEnd
+Incorrect CHECK constraint Minor See solution for constraint details
+Missing or incorrect foreign
+key constraints
+Medium Should have 3 foreign key constraints; See
+solution for constraint details
+Missing cascade delete clause Minor Foreign key constraint for PlanNo should have
+the ON DELETE CASCADE
